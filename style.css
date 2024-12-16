@@ -1,0 +1,363 @@
+/* Resetowanie stylów przeglądarki */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Nagłówek */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 75px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Sekcja intro */
+.intro-section {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center; 
+    gap: 50px;
+    padding: 50px 20px; 
+    background-color: #f9f9f9;
+}
+
+/* Sekcja tekstowa */
+.intro-section .text-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 500px; 
+}
+
+/* Nagłówek */
+.intro-section h1 {
+    font-size: 5rem; 
+    color: #ff6f61; 
+    font-weight: bold;
+}
+
+/* Przycisk */
+.intro-section button {
+    background-color: #0056b3;
+    color: #ffffff;
+    border: 2px solid #0056b3;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: auto; 
+    margin: 0; 
+}
+
+/* Link w przycisku */
+.intro-section button a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+/* Stylowanie przycisku na hover */
+.intro-section button:hover {
+    background-color: #ffffff;
+    color: #0056b3;
+    border: 2px solid #0056b3;
+}
+
+.intro-section figure {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-end; 
+
+}
+
+.intro-section img {
+    width: auto; 
+    height: 500px; 
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.intro-section figcaption {
+    font-size: 0.9rem;
+    color: #777;
+    text-align: right; 
+    margin-top: 10px; 
+    width: 100%; 
+}
+/* Sekcja About Us */
+.about-us {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 3.5rem;
+    color: #1e4619;
+}
+
+.about-us p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.about-us img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* Sekcja Our Team */
+.our-team {
+    display: flex;
+    flex-direction: column; 
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: left; 
+}
+
+.our-team h3 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    margin-bottom: 50px; 
+    text-align: left; 
+}
+
+.team-members {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 0; 
+}
+
+.team-members div {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+   
+}
+
+.team-members img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.team-members div:first-child img {
+    border-top-left-radius: 80px; 
+}
+
+.team-members h4 {
+    font-size: 1.5rem;
+    color: #1e4619;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+.team-members p {
+    font-size: 1rem;
+    color: #070707;
+    text-align: left; 
+}
+
+/* Sekcja Our Retreats */
+.our-retreats {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 100%;
+}
+
+.our-retreats h2 {
+    font-size: 3.5rem;
+    color: #1e4619;
+}
+
+.our-retreats h3 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    text-align: left;
+}
+
+.our-retreats p {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #7f8484;
+}
+
+/* Kontener dla tekstu <em> */
+.em-container {
+    width: 100%;
+    text-align: right; 
+}
+
+/* Stylizacja tekstu w <em> */
+.our-retreats em {
+    font-size: 7.5rem;
+    color: #8d8f8f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    letter-spacing: 1px;
+    display: block;
+}
+
+/* Kontener obrazków */
+.retreats {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.retreats div {
+    width: 62%;  
+    max-width: 100%; 
+}
+
+.retreats img {
+    width: 100%;       
+    height: 300px;       
+    object-fit: cover;  
+    border-radius: 0px; 
+}
+/* Styl przycisku */
+button {
+    background-color: #ff6f61; 
+    color: #fff;  
+    border: 2px solid #ff6f61;  
+    padding: 10px 20px;  
+    border-radius: 25px;  
+    font-size: 1.2rem;  
+    cursor: pointer;  
+    transition: all 0.3s ease;  
+    text-align: center;  
+    text-decoration: none;  
+    display: inline-block;  
+}
+
+button a {
+    color: inherit;  
+    text-decoration: none;  
+}
+
+/* Stylowanie przycisku na hover */
+button:hover {
+    background-color: #fff;  
+    color: #ff6f61;  
+    border: 2px solid #ff6f61;  
+}
+
+
+/* Stopka */
+footer {
+    background-color: #ffffff;
+    color: white;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    margin: 10px 0;
+    color:#1e4619;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+footer h5 {
+    color: #ff6f61;
+    margin: 5px 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer nav ul li a {
+    color: #070202;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+/* Stylizacja dla drugiego div w stopce (paragrafy) */
+footer div:nth-child(2) {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px; 
+}
+
+footer div:nth-child(2) p {
+    margin: 0; 
+    color: #080808; 
+    font-size: 1rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
