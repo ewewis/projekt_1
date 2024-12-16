@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience joy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <img src="./img/logo_joy.png" alt="logo_joy"/>
+    <nav>
+    <ul>
+        <li>
+          <a href="">about</a>
+        </li>
+        <li>
+            <a href="">retreats</a>
+        </li>
+        <li>
+            <a href="">contact</a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/">FB</a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/">IG</a>
+        </li>
+      </ul>
+      </nav>
+</header>
+<main>
+       <!-- sekcja intro -->
+    <section>
+<h1>Experience joy</h1>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloremque
+    provident deleniti reprehenderit voluptate maxime omnis, voluptates
+    labore quis molestias explicabo, esse tenetur fugiat in aliquam iste
+    nostrum? Fuga, cupiditate.
+</p>
+<button>
+<a href="">read more</a>
+</button>
+<img src="./img/hero-bg.png" alt="Polignano_a_mare"/>
+<figcaption>Polignano a mare</figcaption>
+    </section>
+       <!--sekcja about us-->
+<secition>
+<div>
+    <h2>About us</h2>
+    <p>We are small team</p>
+    <img src="./img/sea-bg.jpg" alt="sea"/>
+
+</div>
+</secition>
+     <!--sekcja our team-->
+<section>
+    <div>
+       <h3>Our team</h3> 
+    </div>
+    <div>
+        <img src="./img/profile_image_Marco.png" alt="boy_Marco"/>
+        <p>lorem ipsum</p>
+    </div>
+    <div>
+        <img src="./img/profile_image_Lucrezia.png" alt="girl_Lucrezia"/>
+        <p>lorem ipsum</p>
+    </div>
+    <div>
+        <img src="./img/profile_image_Antonio.png" alt="boy_Antonio"/>
+        <p>lorem ipsum</p>
+    </div>
+    </section>
+    <!--sekcja our retreats-->
+<section>
+    <div>
+        <em>~dolce far niente</em>
+    </div>
+    <div>
+        <h2>Our retreats</h2>
+        <p>lorem ipsum</p>
+        <button>
+            <a href="">check our retreats</a>
+        </button>
+    </div>
+    <div>
+        <div>
+            <h3>awesome nature</h3>
+            <img src="./img/nature.jpeg" alt="nature"/>
+        </div>
+        <div>
+            <h3>tasty kitchen</h3>
+            <img src="./img/pizza.jpg" alt="pizza"/>
+            </div>
+        <div>
+            <h3>infinite views</h3>
+            <img src="./img/views.jpg" alt="views"/>
+            </div>
+    </div>
+</section>
+</main>
+<footer>
+    <div>
+        <h2>contact</h2>
+        <h5>joytravels@joytravels.com</h5>
+        <h5>+48 5679 834 571</h5>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/">FB</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/">IG</a>
+                </li>        
+            </ul>
+        </nav>
+        <img src="./img/contact-bg.png" alt="buildings"/>
+    </div>
+    <div>
+        <p>copywright</p>
+        <p>all rights reserved</p>
+        <p>privacy policy</p>
+    </div>
+</footer>
+</body>
+</html>
