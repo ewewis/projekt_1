@@ -13,4 +13,7 @@ The website was designed based on the following Figma mockup:
 
 ## 🛠️ Technologies Used  
 - HTML5  
-- CSS3  
+- CSS3
+
+![Project Screenshot](img/screenshot.png)  
+
