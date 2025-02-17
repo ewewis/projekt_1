@@ -3,21 +3,39 @@
 This project was created as part of the **GET INTO TECH** program by **INCO Academy**.  
 The goal was to build a website using **HTML** and **CSS** based on a mockup from **Figma**.  
 
+---
+
 ## 📌 Live Demo  
-You can view the project here:  
-➡️ [GitHub Pages Link](https://ewewis.github.io/projekt_1/) 
+**View the project here:**  
+➡️ [GitHub Pages Link](https://ewewis.github.io/projekt_1/)  
+
+<br>
+
 ---
 
 ## 🎨 Design Mockup  
-The website was designed based on the following Figma mockup:  
-➡️ [View Mockup in Figma](https://github.com/user-attachments/assets/8f3ff390-f349-4253-97de-9d8db0337acf)
+**Figma Mockup:**  
+➡️ [View Mockup in Figma](https://github.com/user-attachments/assets/8f3ff390-f349-4253-97de-9d8db0337acf)  
+
+<br>
+
 ---
 
 ## 🛠️ Technologies Used  
-- HTML5  
-- CSS3
+**Built with:**  
+- **HTML5**  
+- **CSS3**  
+
+<br>
+
 ---
 
-## 📸 Screenshot
-  ![Project Screenshot](img/screenshot.png)  
+## 📸 Screenshot  
+**Project Preview:**  
+
+![Project Screenshot](img/screenshot.png)  
+
+---
+
+
 
